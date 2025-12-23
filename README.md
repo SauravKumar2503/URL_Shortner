@@ -5,7 +5,7 @@ A full-stack URL Shortener application that allows users to convert long, comple
 
 🚀 Live Demo
 
-👉 https://url-shortner-two-liard.vercel.app
+👉 [https://url-shortner-two-liard.vercel.app]
 
 
 🚧 Features

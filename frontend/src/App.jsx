@@ -236,7 +236,7 @@ function App() {
           transition={{ duration: 0.8, delay: 2 }}
           className="font-semibold tracking-wide"
         >
-          Created by <span className="text-yellow-300">Naman Nayan</span>
+          Created by <span className="text-yellow-300">Saurav Kumar</span>
         </motion.p>
       </motion.footer>
     </motion.div>

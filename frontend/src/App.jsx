@@ -14,7 +14,7 @@ function App() {
 
   const handleSubmit = () => {
     if (!originalUrl.trim()) return;
-    axios.post('https://url-shortner-backend-xner.onrender.com/api/short', { originalUrl })
+    axios.post('https://url-shortner-i8wr.onrender.com/api/short', { originalUrl })
       .then((res) => {
         setShortUrl(res.data.url.shortUrl);
         setQrCode(res.data.url.qrCode);

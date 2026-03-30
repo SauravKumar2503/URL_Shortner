@@ -46,14 +46,13 @@ app.post('/api/short',async(req,res)=>{
         const url=new Url({originalUrl,shortUrl})
 
         //Generating QR
-        const fullShortUrl=`https://url-shortner-backend-xner.onrender.com/${shortUrl}`
+        const fullShortUrl=`https://url-shortner-i8wr.onrender.com/${shortUrl}`
         const qrCode = await QRCode.toDataURL(fullShortUrl)
-
 
         await url.save();
         return res.status(200).json({message:"URL Generated",
         url: {
-        shortUrl: `https://url-shortner-backend-xner.onrender.com/${shortUrl}`,
+        shortUrl: `https://url-shortner-i8wr.onrender.com/${shortUrl}`,
         originalUrl,
         qrCode
         }
@@ -93,7 +92,8 @@ app.get("/:shortUrl",async(req,res)=>{
 })
 
 
-app.listen(3000,()=>{
-    console.log("Server is running at the port: 3000")
+const port = process.env.PORT || 3000;
+app.listen(port,()=>{
+    console.log(`Server is running at the port: ${port}`)
 })
 

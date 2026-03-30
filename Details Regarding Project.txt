@@ -1,9 +1,0 @@
-Database User: 
-
-Username: - Saurav
-Password: - 25Sau@2003
-
-Connect String: - mongodb+srv://Saurav:25Sau@2003@cluster0.o7sn2bf.mongodb.net/?appName=Cluster0
-
-
-Render:- https://url-shortner-i8wr.onrender.com

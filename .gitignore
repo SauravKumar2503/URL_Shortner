@@ -1,0 +1,9 @@
+# URL Shortener Project - Local Files
+Details Regarding Project.txt
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+.npm
+*.log

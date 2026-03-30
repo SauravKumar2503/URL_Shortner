@@ -27,7 +27,7 @@ A modern, fast, and secure URL Shortener application built with **React**, **Nod
 
 ## 🚀 Live Links
 
-- **Frontend**: [https://url-shortner-frontend-alpha.vercel.app/](https://url-shortner-frontend-alpha.vercel.app/) *(Update this with your Vercel link)*
+- **Frontend**: [https://url-shortner-sigma-lac.vercel.app/](https://url-shortner-sigma-lac.vercel.app/)
 - **Backend API**: [https://url-shortner-i8wr.onrender.com](https://url-shortner-i8wr.onrender.com)
 
 ## 💻 Local Setup

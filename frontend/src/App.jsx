@@ -13,6 +13,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   const handleSubmit = () => {
+    if (!originalUrl.trim()) return;
     axios.post('https://url-shortner-backend-xner.onrender.com/api/short', { originalUrl })
       .then((res) => {
         setShortUrl(res.data.url.shortUrl);
